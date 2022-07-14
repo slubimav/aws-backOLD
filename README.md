@@ -34,7 +34,7 @@ Self check:
 getProductsList - https://f42uqbmqzd.execute-api.eu-central-1.amazonaws.com/dev/products
 getProductsById - https://f42uqbmqzd.execute-api.eu-central-1.amazonaws.com/dev/products/7567ec4b-b10c-48c5-9345-fc73c48a80aa
 
-Frontend - https://djd7u8igle4e3.cloudfront.net/
+Frontend - http://backet-for-fe-app-auto-2.s3-website-us-east-1.amazonaws.com/
  
 -----------
 
