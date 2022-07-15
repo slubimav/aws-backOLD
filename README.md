@@ -31,10 +31,9 @@ Self check:
 
 ## __Backend & Frontend Links__
 
-getProductsList - https://f45hjbxv3k.execute-api.eu-central-1.amazonaws.com/dev/products
-getProductsById - https://f45hjbxv3k.execute-api.eu-central-1.amazonaws.com/dev/products/7567ec4b-b10c-48c5-9445-fc73c48a80a2
-
-Frontend - http://backet-for-fe-app-auto-2.s3-website-us-east-1.amazonaws.com/
+- getProductsList - https://f45hjbxv3k.execute-api.eu-central-1.amazonaws.com/dev/products
+- getProductsById - https://f45hjbxv3k.execute-api.eu-central-1.amazonaws.com/dev/products/7567ec4b-b10c-48c5-9445-fc73c48a80a2
+- Frontend - http://backet-for-fe-app-auto-2.s3-website-us-east-1.amazonaws.com/
  
 -----------
 
@@ -42,4 +41,4 @@ Frontend - http://backet-for-fe-app-auto-2.s3-website-us-east-1.amazonaws.com/
 
 You can try to __make requests__ form Swagger UI to app`s API:
 
-https://app.swaggerhub.com/apis/lubeckiy/AWS_NodeJS/1.0.0-oas3
+https://app.swaggerhub.com/apis/slubimav/AWS-NodeJS/1.0.0/
