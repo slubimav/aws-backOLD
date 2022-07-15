@@ -1,0 +1,50 @@
+service: product-service
+frameworkVersion: '3'
+configValidationMode: warn
+
+provider:
+  name: aws
+  deploymentMethod: direct
+  runtime: nodejs16.x
+  stage: dev
+  region: eu-central-1
+  tracing:
+    lambda: true
+
+package:
+  individually: true
+
+functions:
+  getProductsList:
+    handler: lambdas/getProductsList.handler
+    events:
+      - http:
+          path: products 
+          method: get
+          cors: true
+    url: true
+  
+  getProductsById:
+    handler: lambdas/getProductsById.handler
+    events:
+      - http:
+          path: products/{productId}
+          method: get
+          cors: true
+    url: true
+
+#    Define function environment variables here
+#    environment:
+#      variable2: value2
+
+# you can add CloudFormation resource templates here
+#resources:
+#  Resources:
+#    NewResource:
+#      Type: AWS::S3::Bucket
+#      Properties:
+#        BucketName: my-new-bucket
+#  Outputs:
+#     NewOutput:
+#       Description: "Description for the output"
+#       Value: "Some output value"
